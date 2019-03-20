@@ -1,0 +1,16 @@
+.empty {
+	height: 543px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.empty_first {
+	background-image: url("../img/section-bg-1.jpg");
+}
+.empty_second {
+	background-image: url("../img/section-bg-2.jpg");
+	background-position-x: 57%;
+}
+.empty_third {
+	background-image: url("../img/section-bg-3.jpg");
+}

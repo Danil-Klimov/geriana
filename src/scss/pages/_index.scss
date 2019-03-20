@@ -1,0 +1,310 @@
+
+@media only screen and (min-width: 1200px) and (max-width: 1499px) {
+	.our-works__item {
+		&:nth-child(odd) {
+			&::after {
+				width: 135px;
+				background-position-x: -125px;
+			}
+		}
+		&:nth-child(2) {
+			&::after {
+				width: 135px;
+				background-position-x: -125px;
+			}
+		}
+	}
+	.our-works {
+		h2 {
+			font-size: 68px;
+		}
+	}
+	.qualities__button {
+		bottom: 170px;
+	}
+	.footer__nav {
+		h3 {
+			font-size: 19px;
+		}
+	}
+}
+@media only screen and (max-width: 1199px) {
+	.specialists {
+		padding: 90px 0;
+	}
+	.specialists__container {
+		h3 {
+			font-size: 19px;
+		}
+	}
+	.our-works {
+		padding: 90px 0;
+		h2 {
+			margin-top: 0;
+			margin-bottom: 15px;
+		}
+	}
+	.our-works__item {
+		&:nth-child(2) {
+			&::after {
+				left: -50px;
+			}
+		}
+		&:nth-child(odd) {
+			margin-left: 65px;
+		}
+	}
+	.our-works__button {
+		top: 0;
+		margin: 40px auto 0;
+	}
+	.testimonials {
+		padding: 90px 0;
+	}
+	.qualities {
+		padding: 90px 0;
+	}
+	.footer__nav {
+		h3 {
+			font-size: 18px;
+		}
+	}
+}
+@media only screen and (max-width: 991px) {
+	.our-works {
+		h2 {
+			font-size: 64px;
+			margin-bottom: 30px;
+		}
+	}
+	.qualities__item {
+		margin-left: 0;
+	}
+	.footer__contact-container {
+		margin-left: 0;
+	}
+	.footer__logo {
+		margin-top: 30px;
+	}
+	.menu__link {
+		font-size: 38px;
+	}
+	.menu__buttons {
+		display: flex;
+	}
+	.close {
+		top: 20px;
+		right: 20px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.header__menu-link {
+		>span {
+			display: none;
+		}
+	}
+	.main-section__container {
+		h1 {
+			font-size: 60px;
+			line-height: 70px;
+			span {
+				font-size: 42px;
+			}
+		}
+	}
+	.our-works {
+		h2 {
+			font-size: 51px;
+			line-height: 70px;
+		}
+	}
+	.our-works__item {
+		&:nth-child(odd) {
+			&::after {
+				width: 190px;
+				background-position-x: -70px;
+				right: -30px;
+			}
+		}
+		&:nth-child(2) {
+			&::after {
+				width: 190px;
+				background-position-x: -66px;
+				left: -30px;
+			}
+		}
+	}
+	.qualities__header {
+		margin: 0;
+		h2 {
+			font-size: 51px;
+			margin-bottom: 10px;
+		}
+	}
+	.qualities__list {
+		margin-top: 30px;
+	}
+	.qualities__button {
+		bottom: 0;
+		left: 0;
+	}
+	.footer__nav {
+		h3 {
+			font-size: 18px;
+			margin-bottom: 15px;
+		}
+	}
+	.menu__link {
+		font-size: 28px;
+	}
+}
+@media only screen and (max-width: 575px) {
+	html, body {
+		overflow-x: hidden;
+	}
+	.header__logo {
+		a {
+			width: 190px;
+			height: 45px;
+		}
+	}
+	.header-link {
+		&:not(:last-child) {
+			display: none;
+		}
+		&:last-child {
+			margin-left: 0;
+		}
+	}
+	.main-section {
+		background-position-x: 74%;
+	}
+	.main-section__container {
+		margin-top: 205px;
+		h1 {
+			font-size: 42px;
+			line-height: 50px;
+			margin-bottom: 30px;
+			span {
+				font-size: 30px;
+			}
+		}
+		p {
+			font-size: 22px;
+		}
+	}
+	.thin-section {
+		p {
+			a {
+				display: block;
+			}
+		}
+	}
+	.specialists {
+		padding: 50px 0;
+	}
+	.specialists__container {
+		max-width: 100%;
+		h3 {
+			min-height: 0;
+		}
+	}
+	.our-works {
+		padding: 50px 0;
+		h2 {
+			font-size: 33px;
+			line-height: 1;
+		}
+	}
+	.our-works__item {
+		margin-bottom: 30px !important;
+		&:nth-child(odd) {
+			margin-left: 0;
+			&::after {
+				content: '';
+				display: block;
+				height: 70px;
+				width: 2px;
+				background-color: #fff;
+				position: absolute;
+				left: 30px;
+				top: 55px;
+			}
+		}
+		&:nth-child(even) {
+			justify-content: flex-start;
+			text-align: left;
+			margin-right: 0;
+			.our-works__img {
+				order: -1;
+				margin-left: 0;
+				margin-right: 20px;
+			}
+		}
+		&:nth-child(2) {
+			&::after {
+				content: '';
+				display: block;
+				height: 115px;
+				width: 2px;
+				background-color: #fff;
+				position: absolute;
+				left: 30px;
+				top: 55px;
+			}
+		}
+		&:not(:last-child) {
+			&::before {
+				content: '';
+				position: absolute;
+				left: 26px;
+				bottom: -15px;
+				display: block;
+				width: 0;
+				height: 0;
+				border-width: 10px 5px 0 5px;
+				border-style: solid;
+				border-color: #fff transparent transparent transparent;
+			}
+		}
+
+	}
+	.our-works__button {
+		margin: 0 auto;
+	}
+	.testimonials {
+		padding: 50px 0;
+		h2 {
+			margin-bottom: -40px;
+		}
+	}
+	.qualities {
+		padding: 50px 0;
+	}
+	.qualities__header {
+		h2 {
+			font-size: 36px;
+			line-height: 1;
+		}
+	}
+	.call-section {
+		h2 {
+			line-height: 35px;
+		}
+	}
+	.empty {
+		display: none;
+	}
+	.menu__link {
+		font-size: 20px;
+	}
+	.menu__authorization {
+		display: block;
+	}
+	.footer__nav {
+		h3 {
+			min-height: 54px;
+		}
+	}
+}
+@media only screen and (max-width: 320px) {}

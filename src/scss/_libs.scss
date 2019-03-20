@@ -1,0 +1,29 @@
+$grid-breakpoints: (
+	// Extra small screen / phone
+		xs: 0,
+	// Small screen / phone
+		sm: 576px,
+	// Medium screen / tablet
+		md: 768px,
+	// Large screen / desktop
+		lg: 992px,
+	// Extra large screen / wide desktop
+		xl: 1200px,
+	// Super extra large screen
+		xxl: 1500px
+);
+
+$container-max-widths: (
+		sm: 540px,
+		md: 720px,
+		lg: 960px,
+		xl: 1140px,
+		xxl: 1440px
+);
+
+@import '../../node_modules/bootstrap/scss/bootstrap-reboot.scss';
+@import '../../node_modules/bootstrap/scss/bootstrap-grid.scss';
+@import '../../node_modules/bootstrap/scss/_utilities.scss';
+@import '../../node_modules/slick-carousel/slick/slick.scss';
+//@import '../../node_modules/fullpage.js/dist/jquery.fullpage';
+//@import '../../node_modules/magnific-popup/src/css/main.scss';

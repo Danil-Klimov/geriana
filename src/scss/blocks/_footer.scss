@@ -1,0 +1,44 @@
+.footer {
+	background-color: #0b2a37;
+	color: #fff;
+	padding: 83px 0 86px;
+}
+.footer__contact-container {
+	margin-left: 86px;
+}
+.footer__nav {
+	h3 {
+		font-size: 22px;
+		font-weight: 700;
+		margin-bottom: 28px;
+	}
+	a {
+		display: block;
+		color: rgba(255,255,255, 0.8);
+		line-height: 1;
+		&:not(:last-child) {
+			margin-bottom: 20px;
+		}
+	}
+}
+.footer__logo {
+	max-width: 222px;
+	margin-bottom: 32px;
+}
+.social {
+	font-size: 22px;
+	line-height: 26px;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	margin: 0 0 10px 5px;
+	a {
+		margin-left: 10px;
+	}
+}
+.copy {
+ 	font-size: 14px;
+ 	line-height: 20px;
+	opacity: 0.5;
+	margin-left: 5px;
+ }

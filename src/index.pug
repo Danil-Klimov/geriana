@@ -1,0 +1,23 @@
+extends pug/_pattern
+
+append vars
+	- var index = 'active-menu-item'
+
+block title
+	title Znajdź opiekuna
+
+block content
+	include pug/_header
+	main
+		include pug/_main-section
+		include pug/_thin-section
+		include pug/_specialists
+		+empty('empty_first')
+		include pug/_our-works
+		+empty('empty_second')
+		include pug/_testimonials
+		+empty('empty_third')
+		include pug/_qualities
+		include pug/_call-section
+	include pug/_footer
+	include pug/_menu

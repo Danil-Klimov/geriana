@@ -1,0 +1,18 @@
+mixin svg(name)
+    svg&attributes(attributes)
+        use(xlink:href="img/sprite.svg#" + name)
+
+mixin empty(name)
+    .empty(class=name)
+
+mixin testimonials(user_name, prof, text, ava)
+    .col-lg-4.col-sm-6
+        .testimonials__item
+            .testimonials__comment
+                span=text
+            .testimonials__user
+                .testimonials__user-text
+                    h4=user_name
+                    span=prof
+                .testimonials__avatar
+                    img(src=ava alt='')
